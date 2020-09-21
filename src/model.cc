@@ -127,7 +127,7 @@ void Model::ConfigureV1()
     const char *extra_args[] = {
         "--max-active=7000",
         "--beam=13.0",
-        "--lattice-beam=6.0",
+        "--lattice-beam=3.0",
         "--acoustic-scale=1.0",
 
         "--frame-subsampling-factor=3",
